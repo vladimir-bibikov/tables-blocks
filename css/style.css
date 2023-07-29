@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.first {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(230, 230, 230);
+}
+
+table {
+  width: 80%;
+  border-spacing: 0;
+  border-radius: 10px;
+  border: 1px solid rgb(231, 230, 230);
+  overflow: hidden;
+}
+
+thead {
+  color: #fff;
+  height: 140px;
+}
+
+.txt {
+  margin-bottom: 30px;
+}
+
+thead td:first-child {
+  background-color: rgb(98, 111, 116);
+}
+
+thead td:nth-child(2) {
+  background-color: rgb(74, 105, 117);
+}
+
+thead td:nth-child(3) {
+  background-color: rgb(48, 95, 114);
+}
+
+thead td:nth-child(4) {
+  background-color: rgb(22, 87, 112);
+}
+
+thead td:last-child {
+  background-color: rgb(2, 82, 114);
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+td:nth-child(even) {
+  background-color: rgb(226, 224, 224);
+}
+
+td:nth-child(odd) {
+  background-color: rgb(196, 196, 196);
+}
+
+tbody tr:nth-child(odd) {
+  opacity: 0.7;
+}
+
+.price {
+  font-size: 28px;
+}
+
+.second {
+  position: relative;
+  height: 300px;
+  padding: 20px;
+  background-color: rgb(204, 203, 203);
+}
+
+.second p {
+  position: absolute;
+  padding-right: 20px;
+  top: 100px;
+}
+
+.menu {
+  display: flex;
+  z-index: 10;
+  position: absolute;
+}
+
+.item {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  padding: 10px 0 0 0;
+  border: 1px solid rgb(2, 22, 8);
+  color: #fff;
+  background-color: rgb(51, 146, 88);
+}
+
+.item:hover {
+  background-color: rgb(31, 92, 54);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.menu-c {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  display: none;
+}
+
+.add:hover .menu-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.add {
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.menu-r, .menu-r1, .menu-r2 {
+  position: absolute;
+  left: 150px;
+  width: 100%;
+  display: none;
+}
+
+.menu-r {
+  top: 40px;
+}
+
+.menu-r1 {
+  top: 0px;
+}
+
+.menu-r2 {
+  top: 80px;
+}
+
+.add1:hover .menu-r, .add1:hover .menu-r1, .add2:hover .menu-r2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.third {
+  width: 100vw;
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+  width: 900px;
+  padding-bottom: 20px;
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  padding: 10px 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(179, 27, 27);
+}
+
+.header ul {
+  width: 500px;
+  display: flex;
+  justify-content: left;
+}
+
+a {
+  padding: 10px 25px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header a:hover {
+  background-color: rgb(102, 3, 3);
+}
+
+.header h3 {
+  color: #fff;
+  margin-right: 50px;
+}
+
+.cont {
+  padding: 10px 50px;
+  display: flex;
+  gap: 15px;
+}
+
+.cont .text {
+  width: 80%;
+}
+
+.cont p {
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 300px;
+  height: 600px;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  background-color: rgb(209, 209, 209);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.info {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.info div:first-child {
+  width: 80px;
+}
+
+.info div:last-child {
+  width: 180px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+hr {
+  margin-bottom: 10px;
+}
+
+.writers {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid rgb(180, 179, 179);
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.writer {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.writers img {
+  width: 100%;
+  height: 120px;
+  padding-bottom: 10px;
+}
+
+.name {
+  text-align: center;
+}
